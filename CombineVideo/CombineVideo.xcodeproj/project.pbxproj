@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A20DADEA1EDEA5B0000EA7D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A20DADE91EDEA5B0000EA7D1 /* main.m */; };
+		A20DADED1EDEA5B0000EA7D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A20DADEC1EDEA5B0000EA7D1 /* AppDelegate.m */; };
+		A20DADF01EDEA5B0000EA7D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A20DADEF1EDEA5B0000EA7D1 /* ViewController.m */; };
+		A20DADF31EDEA5B0000EA7D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20DADF11EDEA5B0000EA7D1 /* Main.storyboard */; };
+		A20DADF51EDEA5B0000EA7D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20DADF41EDEA5B0000EA7D1 /* Assets.xcassets */; };
+		A20DADF81EDEA5B0000EA7D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20DADF61EDEA5B0000EA7D1 /* LaunchScreen.storyboard */; };
+		A260B9B91EDFAC9E0051BE6C /* coco in Resources */ = {isa = PBXBuildFile; fileRef = A260B9B81EDFAC9E0051BE6C /* coco */; };
+		A260B9C01EDFE8600051BE6C /* PlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A260B9BF1EDFE8600051BE6C /* PlayerView.m */; };
+		A260B9C51EDFE9750051BE6C /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A260B9C31EDFE9750051BE6C /* PlayerViewController.m */; };
+		A260B9C61EDFE9750051BE6C /* PlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A260B9C41EDFE9750051BE6C /* PlayerViewController.xib */; };
+		A260B9CE1EDFF9880051BE6C /* output2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A260B9CC1EDFF9880051BE6C /* output2.mp4 */; };
+		A260B9CF1EDFF9880051BE6C /* output5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A260B9CD1EDFF9880051BE6C /* output5.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A20DADE51EDEA5B0000EA7D1 /* CombineVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20DADE91EDEA5B0000EA7D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A20DADEB1EDEA5B0000EA7D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A20DADEC1EDEA5B0000EA7D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A20DADEE1EDEA5B0000EA7D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A20DADEF1EDEA5B0000EA7D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A20DADF21EDEA5B0000EA7D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A20DADF41EDEA5B0000EA7D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A20DADF71EDEA5B0000EA7D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A20DADF91EDEA5B0000EA7D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A260B9B81EDFAC9E0051BE6C /* coco */ = {isa = PBXFileReference; lastKnownFileType = folder; path = coco; sourceTree = "<group>"; };
+		A260B9BE1EDFE8600051BE6C /* PlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerView.h; sourceTree = "<group>"; };
+		A260B9BF1EDFE8600051BE6C /* PlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerView.m; sourceTree = "<group>"; };
+		A260B9C21EDFE9750051BE6C /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		A260B9C31EDFE9750051BE6C /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		A260B9C41EDFE9750051BE6C /* PlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerViewController.xib; sourceTree = "<group>"; };
+		A260B9CC1EDFF9880051BE6C /* output2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = output2.mp4; sourceTree = "<group>"; };
+		A260B9CD1EDFF9880051BE6C /* output5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = output5.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A20DADE21EDEA5B0000EA7D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A20DADDC1EDEA5B0000EA7D1 = {
+			isa = PBXGroup;
+			children = (
+				A20DADE71EDEA5B0000EA7D1 /* CombineVideo */,
+				A20DADE61EDEA5B0000EA7D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A20DADE61EDEA5B0000EA7D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A20DADE51EDEA5B0000EA7D1 /* CombineVideo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A20DADE71EDEA5B0000EA7D1 /* CombineVideo */ = {
+			isa = PBXGroup;
+			children = (
+				A260B9CB1EDFF9880051BE6C /* coco */,
+				A260B9C11EDFE9420051BE6C /* PlayerViewController */,
+				A260B9B81EDFAC9E0051BE6C /* coco */,
+				A20DADEB1EDEA5B0000EA7D1 /* AppDelegate.h */,
+				A20DADEC1EDEA5B0000EA7D1 /* AppDelegate.m */,
+				A20DADEE1EDEA5B0000EA7D1 /* ViewController.h */,
+				A20DADEF1EDEA5B0000EA7D1 /* ViewController.m */,
+				A20DADF11EDEA5B0000EA7D1 /* Main.storyboard */,
+				A20DADF41EDEA5B0000EA7D1 /* Assets.xcassets */,
+				A20DADF61EDEA5B0000EA7D1 /* LaunchScreen.storyboard */,
+				A20DADF91EDEA5B0000EA7D1 /* Info.plist */,
+				A20DADE81EDEA5B0000EA7D1 /* Supporting Files */,
+			);
+			path = CombineVideo;
+			sourceTree = "<group>";
+		};
+		A20DADE81EDEA5B0000EA7D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A20DADE91EDEA5B0000EA7D1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A260B9BD1EDFE82D0051BE6C /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				A260B9BE1EDFE8600051BE6C /* PlayerView.h */,
+				A260B9BF1EDFE8600051BE6C /* PlayerView.m */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+		A260B9C11EDFE9420051BE6C /* PlayerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A260B9BD1EDFE82D0051BE6C /* Player */,
+				A260B9C21EDFE9750051BE6C /* PlayerViewController.h */,
+				A260B9C31EDFE9750051BE6C /* PlayerViewController.m */,
+				A260B9C41EDFE9750051BE6C /* PlayerViewController.xib */,
+			);
+			name = PlayerViewController;
+			sourceTree = "<group>";
+		};
+		A260B9CB1EDFF9880051BE6C /* coco */ = {
+			isa = PBXGroup;
+			children = (
+				A260B9CC1EDFF9880051BE6C /* output2.mp4 */,
+				A260B9CD1EDFF9880051BE6C /* output5.mp4 */,
+			);
+			name = coco;
+			path = ../coco;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A20DADE41EDEA5B0000EA7D1 /* CombineVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A20DADFC1EDEA5B0000EA7D1 /* Build configuration list for PBXNativeTarget "CombineVideo" */;
+			buildPhases = (
+				A20DADE11EDEA5B0000EA7D1 /* Sources */,
+				A20DADE21EDEA5B0000EA7D1 /* Frameworks */,
+				A20DADE31EDEA5B0000EA7D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CombineVideo;
+			productName = CombineVideo;
+			productReference = A20DADE51EDEA5B0000EA7D1 /* CombineVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A20DADDD1EDEA5B0000EA7D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = xiaozuoren;
+				TargetAttributes = {
+					A20DADE41EDEA5B0000EA7D1 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = A9UDCQWU65;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A20DADE01EDEA5B0000EA7D1 /* Build configuration list for PBXProject "CombineVideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A20DADDC1EDEA5B0000EA7D1;
+			productRefGroup = A20DADE61EDEA5B0000EA7D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A20DADE41EDEA5B0000EA7D1 /* CombineVideo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A20DADE31EDEA5B0000EA7D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A260B9B91EDFAC9E0051BE6C /* coco in Resources */,
+				A260B9CF1EDFF9880051BE6C /* output5.mp4 in Resources */,
+				A260B9C61EDFE9750051BE6C /* PlayerViewController.xib in Resources */,
+				A20DADF81EDEA5B0000EA7D1 /* LaunchScreen.storyboard in Resources */,
+				A20DADF51EDEA5B0000EA7D1 /* Assets.xcassets in Resources */,
+				A20DADF31EDEA5B0000EA7D1 /* Main.storyboard in Resources */,
+				A260B9CE1EDFF9880051BE6C /* output2.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A20DADE11EDEA5B0000EA7D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20DADF01EDEA5B0000EA7D1 /* ViewController.m in Sources */,
+				A20DADED1EDEA5B0000EA7D1 /* AppDelegate.m in Sources */,
+				A20DADEA1EDEA5B0000EA7D1 /* main.m in Sources */,
+				A260B9C01EDFE8600051BE6C /* PlayerView.m in Sources */,
+				A260B9C51EDFE9750051BE6C /* PlayerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A20DADF11EDEA5B0000EA7D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A20DADF21EDEA5B0000EA7D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A20DADF61EDEA5B0000EA7D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A20DADF71EDEA5B0000EA7D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A20DADFA1EDEA5B0000EA7D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A20DADFB1EDEA5B0000EA7D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A20DADFD1EDEA5B0000EA7D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A9UDCQWU65;
+				INFOPLIST_FILE = CombineVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaozr.CombineVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A20DADFE1EDEA5B0000EA7D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A9UDCQWU65;
+				INFOPLIST_FILE = CombineVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaozr.CombineVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A20DADE01EDEA5B0000EA7D1 /* Build configuration list for PBXProject "CombineVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A20DADFA1EDEA5B0000EA7D1 /* Debug */,
+				A20DADFB1EDEA5B0000EA7D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A20DADFC1EDEA5B0000EA7D1 /* Build configuration list for PBXNativeTarget "CombineVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A20DADFD1EDEA5B0000EA7D1 /* Debug */,
+				A20DADFE1EDEA5B0000EA7D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A20DADDD1EDEA5B0000EA7D1 /* Project object */;
+}

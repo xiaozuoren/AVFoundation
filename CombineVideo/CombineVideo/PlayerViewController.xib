@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12118"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PlayerViewController">
+            <connections>
+                <outlet property="leftView" destination="DPX-55-bej" id="qab-Yj-0KX"/>
+                <outlet property="rightView" destination="xbm-rR-OAg" id="p5n-UE-VB2"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="219"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DPX-55-bej" userLabel="leftView" customClass="PlayerView">
+                    <rect key="frame" x="0.0" y="0.0" width="187.5" height="219"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xbm-rR-OAg" userLabel="rightView" customClass="PlayerView">
+                    <rect key="frame" x="187.5" y="0.0" width="187.5" height="219"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="DPX-55-bej" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="0h7-nM-oJq"/>
+                <constraint firstItem="DPX-55-bej" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="2L3-2f-VJ3"/>
+                <constraint firstAttribute="bottom" secondItem="xbm-rR-OAg" secondAttribute="bottom" id="Dh1-02-DoS"/>
+                <constraint firstAttribute="bottom" secondItem="DPX-55-bej" secondAttribute="bottom" id="IQM-hy-ncQ"/>
+                <constraint firstAttribute="trailing" secondItem="xbm-rR-OAg" secondAttribute="trailing" id="N0D-rc-i2P"/>
+                <constraint firstItem="xbm-rR-OAg" firstAttribute="leading" secondItem="DPX-55-bej" secondAttribute="trailing" id="Nu9-41-g4r"/>
+                <constraint firstItem="xbm-rR-OAg" firstAttribute="height" secondItem="DPX-55-bej" secondAttribute="height" id="TRi-HE-JKw"/>
+                <constraint firstItem="xbm-rR-OAg" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="gYY-3u-hbC"/>
+                <constraint firstItem="xbm-rR-OAg" firstAttribute="width" secondItem="DPX-55-bej" secondAttribute="width" id="kM4-a1-x3f"/>
+                <constraint firstItem="xbm-rR-OAg" firstAttribute="leading" secondItem="DPX-55-bej" secondAttribute="trailing" id="thO-c6-auK"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="35.5" y="134.5"/>
+        </view>
+    </objects>
+</document>
